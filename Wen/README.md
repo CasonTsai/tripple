@@ -20,11 +20,11 @@ two model available right now:
 ***
 ## Face Verification results
 
-model | capacity | agedb_30 | cfp_fp | lfw
----|---|--- |--- |---|
-sphereface | 107M | 93.56 | 95.04 | 99.42
-mobileface | 4.6M | 90.63 | 93.05 | 99.24
-
+model | capacity | agedb_30 | cfp_fp | lfw | extract time(cpu)
+---|---|--- |--- |---| --- |
+sphereface | 107M | 93.56 | 95.04 | 99.42 | 181ms
+mobileface | 4.6M | 90.63 | 93.05 | 99.24 | 171ms
+shufflenet_V2 | 8.7M |  80.66 | 83.03 | 98.15 | 82ms
 
 ***
 modify by [InsightFace](https://github.com/TreB1eN/InsightFace_Pytorch)
